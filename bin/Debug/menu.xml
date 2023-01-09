@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+  <Viikonpäivä päivä="Maanantai">
+	<Ruoat>
+		<Ruoka>Läskisoossi</Ruoka>
+		<Ruoka>Lihapiirakka</Ruoka>
+    <Ruoka>Kasvislasagne</Ruoka>
+    <Hinnat>
+      <Normaalihinta>4,50 €</Normaalihinta>
+    </Hinnat>
+  </Ruoat>                
+  </Viikonpäivä>
+  
+  <Viikonpäivä päivä="Tiistai">
+	<Ruoat>
+		<Ruoka>Pyttipannu</Ruoka>
+		<Ruoka>Kalakeitto</Ruoka>
+    <Ruoka>Kasvislaatikko</Ruoka>
+    <Hinnat>
+      <Normaalihinta>5,00 €</Normaalihinta>
+    </Hinnat>
+	</Ruoat>    
+  </Viikonpäivä>
+  
+  <Viikonpäivä päivä="Keskiviikko">
+	<Ruoat>
+		<Ruoka>Lihakeitto</Ruoka>
+		<Ruoka>Kasvis tortillat</Ruoka>
+    <Ruoka>Hauki tattikastikkeella</Ruoka>
+    <Hinnat>
+      <Normaalihinta>4,50€</Normaalihinta>
+    </Hinnat>
+	</Ruoat>    
+  </Viikonpäivä>
+  
+  <Viikonpäivä päivä="Torstai">
+	<Ruoat>
+		<Ruoka>Karjalapaisti</Ruoka>
+		<Ruoka>Kasvissosekeitto</Ruoka>
+    <Ruoka>Spagetti jauhelihakastikkeella</Ruoka>
+    <Hinnat>
+      <Normaalihinta>6,00€</Normaalihinta>
+    </Hinnat>
+	</Ruoat>   
+  </Viikonpäivä>
+  
+  <Viikonpäivä päivä="Perjantai">
+	<Ruoat>
+		<Ruoka>Silakkapihvit</Ruoka>
+		<Ruoka>Lihapyörykät ja Muusi</Ruoka>
+    <Ruoka>Spagetti tomaattikastikkeella</Ruoka>
+    <Hinnat>
+      <Normaalihinta>6,00€</Normaalihinta>
+    </Hinnat>
+	</Ruoat>    
+  </Viikonpäivä>
+  
+  <Viikonpäivä päivä="Lauantai">
+	<Ruoat>
+		<Ruoka>Makaronilaatikko</Ruoka>
+		<Ruoka>Kasvispyörykät ja riisi</Ruoka>
+    <Ruoka>Janssoninkiusaus</Ruoka>
+    <Hinnat>
+      <Normaalihinta>7,50€</Normaalihinta>
+    </Hinnat>
+	</Ruoat>   
+  </Viikonpäivä>
+  
+  <Viikonpäivä päivä="Sunnuntai">
+	<Ruoat>
+		<Ruoka>Kasvislaatikko</Ruoka>
+		<Ruoka>Kalapuikot ja muusi</Ruoka>
+    <Ruoka>Riisiä kanakastike</Ruoka>
+    <Hinnat>
+      <Normaalihinta>8,00€</Normaalihinta>
+    </Hinnat>
+	</Ruoat>   
+  </Viikonpäivä>
+</Menu>

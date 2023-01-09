@@ -1,0 +1,66 @@
+﻿<Window x:Class="Ruokalista5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ruokalista5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="750">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF364438" Offset="0.03"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="250" />
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="400"/>
+            <RowDefinition Height="400"/>
+        </Grid.RowDefinitions>
+
+        <ListBox Name="lstViikonpäivät" Grid.Row="2" Grid.Column="0" HorizontalContentAlignment="Center" SelectionChanged="lstViikonpäivät_SelectionChanged" Margin="0,0,0,81" FontFamily="High Tower Text" FontSize="14" Foreground="White">
+            <ListBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF364438" Offset="0.4"/>
+                </LinearGradientBrush>
+            </ListBox.Background>
+        </ListBox>
+        <ListBox Name="lstRuokalista" Grid.Row="2" Grid.Column="1" HorizontalContentAlignment="Center" SelectionChanged="lstRuokalista_SelectionChanged" Margin="0,0,0,81" FontFamily="High Tower Text" FontSize="14" Foreground="White">
+            <ListBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF364438" Offset="0.4"/>
+                </LinearGradientBrush>
+            </ListBox.Background>
+        </ListBox>
+        <ListBox Name="lstHinta" Grid.Row="2" Grid.Column="2" HorizontalContentAlignment="Center" Margin="0,0,0,81" FontFamily="High Tower Text" FontSize="14" Foreground="White">
+            <ListBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF364438" Offset="0.4"/>
+                </LinearGradientBrush>
+            </ListBox.Background>
+        </ListBox>
+        <Label Name="lblViikonpäivät" Content="Valitse päivä" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1" Grid.Column="0" FontSize="18" FontFamily="High Tower Text" Background="#FF364438" Foreground="White"/>
+        <Label Name="lblRuokalista" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1" Grid.Column="1" FontSize="18" FontFamily="High Tower Text" Background="#FF364438" Foreground="White"/>
+        <Label Name="lblHinta" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1" Grid.Column="2" FontSize="18" FontFamily="High Tower Text" Background="#FF364438" Foreground="White"/>
+        <Label Name="lblOtsikko" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"
+               Content="Ruokalista" HorizontalContentAlignment="Center" FontSize="30" Margin="0,12,0,0" Width="250" Grid.Column="1" FontFamily="High Tower Text" FontWeight="Bold" Background="{x:Null}" Foreground="White"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="80,219,0,0" Grid.Row="2" VerticalAlignment="Top" Width="80" Source="calendar.png"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="80,219,0,0" Grid.Row="2" VerticalAlignment="Top" Width="80" Source="fork.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="80,219,0,0" Grid.Row="2" VerticalAlignment="Top" Width="80" Source="raha.png" Grid.Column="2"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="80,219,0,0" Grid.Row="2" VerticalAlignment="Top" Width="80" Source="calendar.png"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="80,219,0,0" Grid.Row="2" VerticalAlignment="Top" Width="80" Source="fork.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="80" Margin="80,219,0,0" Grid.Row="2" VerticalAlignment="Top" Width="80" Source="raha.png" Grid.Column="2"/>
+
+    </Grid>
+</Window>
